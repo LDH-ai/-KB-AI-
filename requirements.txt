@@ -1,7 +1,6 @@
 streamlit
 python-dotenv
 pypdf
-pyngrok
 langchain-community
 langchain-text-splitters
 langchain-openai

@@ -115,10 +115,4 @@ def main():
         st.session_state.messages.append({"role": "assistant", "content": response})
 
 if __name__ == "__main__":
-    from pyngrok import ngrok
-    
-    # Streamlit 기본 포트(8501)로 ngrok 터널링 연결
-    public_url = ngrok.connect(8501)
-    print("앱 접속 URL:", public_url)
-    
     main()
